@@ -43,7 +43,7 @@ end
 
 require "rspec"
 
-require File.expand_path("rspec/active_record_shared_connection", File.dirname(__FILE__))
+# require File.expand_path("rspec/active_record_shared_connection", File.dirname(__FILE__))
 require File.expand_path("rspec/helper", File.dirname(__FILE__))
 require File.expand_path("rspec/matchers/base_matcher", File.dirname(__FILE__))
 require File.expand_path("rspec/matchers", File.dirname(__FILE__))
